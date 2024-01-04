@@ -1,0 +1,19 @@
+@import './base.css';
+@import './hero.css';
+@import './card.css';
+
+body {
+  background-image: url(/images/background.png);
+}
+
+#app {
+  padding: 2rem;
+  background-color: blue;
+  display: none;
+}
+
+button {
+  background-color: pink;
+  border: none;
+  padding: 1em;
+}

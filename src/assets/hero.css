@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'K2D', sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: end;
+    letter-spacing: 4rem;
+    -webkit-text-stroke-width: 0.3rem;
+    -webkit-text-stroke-color: red;
+}
+
+h2:nth-of-type(1) {
+    text-shadow: 10px -6px #0CA7ED;
+}
+h2:nth-of-type(2) {
+    text-shadow: 10px -6px #F681F6;
+}
+h2:nth-of-type(3) {
+    text-shadow: 10px -6px #EDA00C;
+}
+h2:nth-of-type(4) {
+    text-shadow: 10px -6px #0CED23;
+}
+h2:nth-of-type(5) {
+    text-shadow: 10px -6px #0CEDDF;
+}
