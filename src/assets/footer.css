@@ -1,0 +1,8 @@
+p {
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: var(--weight-medium);
+    -webkit-text-stroke-width: 0.06rem;
+    -webkit-text-stroke-color: var(--text-border);
+    padding-block: 2rem;
+}

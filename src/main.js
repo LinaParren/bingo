@@ -1,11 +1,8 @@
-import './assets/main.css'
+import './assets/main.css';
 
-import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+import { createApp } from 'vue';
+import App from './components/App.vue';
 
-createApp({
-    data() {
-        return {
-            count: 0
-        }
-    }
-}).mount('#app')
+const app = createApp(App);
+
+app.mount('#app');

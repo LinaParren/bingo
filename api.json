@@ -1,0 +1,104 @@
+{
+  "items": [
+    { "id": 1,
+      "completed": false,
+      "name": "made proof of concept for designer"
+    },
+    { "id": 2,
+      "completed": false,
+      "name": "designer asked for advice"
+    },
+    { "id": 3,
+      "completed": false,
+      "name": "coded using local storage"
+    },
+    { "id": 4,
+      "completed": false,
+      "name": "got 100% on one of lighthouse scores on a homepage"
+    },
+    { "id": 5,
+      "completed": false,
+      "name": "made any type of game for a client"
+    },
+    { "id": 6,
+      "completed": false,
+      "name": "worked on 5+ different clients in one day"
+    },
+    { "id": 7,
+      "completed": false,
+      "name": "work on 5+ different tickets in one day"
+    },
+    { "id": 8,
+      "completed": false,
+      "name": "wrote documentation for an api call"
+    },
+    { "id": 9,
+      "completed": false,
+      "name": "code a voice controlled feature"
+    },
+    { "id": 10,
+      "completed": false,
+      "name": "code for light AND dark mode"
+    },
+    { "id": 11,
+      "completed": false,
+      "name": "backend asked for advice"
+    },
+    { "id": 12,
+      "completed": false,
+      "name": "made use of a public api"
+    },
+    { "id": 13,
+      "completed": false,
+      "name": "FREE"
+    },
+    { "id": 14,
+      "completed": false,
+      "name": "talked to Brian without insulting him"
+    },
+    { "id": 15,
+      "completed": false,
+      "name": "coded something that uses the device’s camera"
+    },
+    { "id": 16,
+      "completed": false,
+      "name": "coded  no-js interactive component"
+    },
+    { "id": 17,
+      "completed": false,
+      "name": "implement 270 in a project"
+    },
+    { "id": 18,
+      "completed": false,
+      "name": "got a compliment from a non-dev on work"
+    },
+    { "id": 19,
+      "completed": false,
+      "name": "coded with canvas"
+    },
+    { "id": 20,
+      "completed": false,
+      "name": "broke the whole website while trying something"
+    },
+    { "id": 21,
+      "completed": false,
+      "name": "coded with react"
+    },
+    { "id": 22,
+      "completed": false,
+      "name": "coded anything related to animals"
+    },
+    { "id": 23,
+      "completed": false,
+      "name": "did not apply change asked by design  cause we know better"
+    },
+    { "id": 24,
+      "completed": false,
+      "name": "make an email"
+    },
+    { "id": 25,
+      "completed": false,
+      "name": "made something we’re proud of"
+    }
+  ]
+}

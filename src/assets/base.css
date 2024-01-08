@@ -1,4 +1,19 @@
-/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 :root {
   --white: #ffffff;
+  --red: #ff0000;
+
+  --text-color: var(--white);
+  --text-border: var(--red);
+
+  --main-font: 'K2D', sans-serif;
+  --weight-medium: 600;
+  --weight-large: 900;
+}
+
+* {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--main-font);
 }
