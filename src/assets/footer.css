@@ -1,5 +1,6 @@
 p {
     color: var(--text-color);
+    font-family: var(--font-kd);
     font-size: 3rem;
     font-weight: var(--weight-medium);
     -webkit-text-stroke-width: 0.06rem;

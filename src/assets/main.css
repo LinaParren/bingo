@@ -3,9 +3,6 @@
 @import './card.css';
 @import './footer.css';
 
-/* @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
-
-
 body {
   height: 100vh;
   background-image: url(/images/background.png);

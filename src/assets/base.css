@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 
 :root {
-  --white: #ffffff;
+  --white: #fff;
   --red: #ff0000;
+  --black: #000;
 
   --text-color: var(--white);
   --text-border: var(--red);
 
-  --main-font: 'K2D', sans-serif;
+  --font-kd: 'K2D', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-lacquer: 'Lacquer', system-ui;
   --weight-medium: 600;
   --weight-large: 900;
 }
 
 * {
   text-align: center;
-  text-transform: uppercase;
-  font-family: var(--main-font);
 }

@@ -8,8 +8,10 @@
 
 h2 {
     color: var(--text-color);
+    font-family: var(--font-kd);
     font-size: 6rem;
     font-weight: var(--weight-medium);
+    text-transform: uppercase;
     -webkit-text-stroke-width: 0.3rem;
     -webkit-text-stroke-color: var(--text-border);
     margin-top: 0rem;

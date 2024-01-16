@@ -21,26 +21,50 @@
 
 .card-cell-text {
     color: var(--text-color);
-    font-size: calc(0.8vw + 0.8vh);
+    font-family: var(--font-inter);
+    font-size: calc(1vw + 1vh);
     font-weight: var(--weight-large);
-    -webkit-text-stroke-width: 0.06rem;
-    -webkit-text-stroke-color: var(--text-border);
+    text-shadow: -1px -1px 0 var(--text-border), 1px -1px 0 var(--text-border), -1px 1px 0 var(--text-border), 1px 1px 0 var(--text-border);
 }
 
 .completed {
     position: relative;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+
+.completed .startext {
+    position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.completed .star {
+.completed .startext .star {
     width: 12vw;
     height: 12vw;
     background-color: var(--red);;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
-
-.completed .card-cell-text {
+.completed .startext .card-cell-text {
     position: absolute;
+}
+
+
+.completed .namedate {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+
+    color: var(--white);
+    font-family: var(--font-lacquer);
+    font-size: calc(0.8vw + 0.8vh);
+    font-weight: var(--weight-large);
+    text-transform: lowercase;
+    letter-spacing: -0.08rem;
+    -webkit-text-stroke-width: 0.03rem;
+    -webkit-text-stroke-color: var(--black);
 }
