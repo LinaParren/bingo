@@ -35,5 +35,5 @@ app.post('/api', cors(corsOptions), (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log(`Example app listening on port ${3000}`)
+    console.log(`server.js zegt: Example app listening on port ${3000}`)
 })
