@@ -8,8 +8,7 @@ app.use(express.json());
 app.use(cors())
 
 var corsOptions = {
-  // origin: 'http://localhost:5173',
-  origin: 'https://linaparren.github.io/bingo/',
+  origin: 'http://localhost:5173',
   optionsSuccessStatus: 200
 }
 
