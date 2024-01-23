@@ -58,10 +58,10 @@
     },
     {
       "id": 9,
-      "completed": false,
+      "completed": true,
       "task": "code a voice controlled feature",
-      "name": "",
-      "date": ""
+      "name": "jji, ",
+      "date": "23 Jan"
     },
     {
       "id": 10,
@@ -163,10 +163,10 @@
     },
     {
       "id": 24,
-      "completed": false,
+      "completed": true,
       "task": "make an email",
-      "name": "",
-      "date": ""
+      "name": "oj, ",
+      "date": "23 Jan"
     },
     {
       "id": 25,
