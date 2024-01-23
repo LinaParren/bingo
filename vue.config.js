@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/bingo/'
+    publicPath: process.env.NODE_ENV === 'main'
+        ? '/bingo/'
+        : '/'
 }
