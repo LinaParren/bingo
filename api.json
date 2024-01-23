@@ -4,15 +4,15 @@
       "id": 1,
       "completed": true,
       "task": "made proof of concept for designer",
-      "name": "lin, ",
-      "date": "23 Jan"
+      "name": "mo, ",
+      "date": "10 Jan"
     },
     {
       "id": 2,
-      "completed": false,
+      "completed": true,
       "task": "designer asked for advice",
-      "name": "",
-      "date": ""
+      "name": "char, ",
+      "date": "6 Jan"
     },
     {
       "id": 3,
@@ -23,10 +23,10 @@
     },
     {
       "id": 4,
-      "completed": true,
+      "completed": false,
       "task": "got 100% on one of lighthouse scores on a homepage",
-      "name": "lin, ",
-      "date": "23 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 5,
@@ -44,10 +44,10 @@
     },
     {
       "id": 7,
-      "completed": true,
+      "completed": false,
       "task": "work on 5+ different tickets in one day",
-      "name": "lin, ",
-      "date": "22 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 8,
@@ -58,38 +58,38 @@
     },
     {
       "id": 9,
-      "completed": true,
+      "completed": false,
       "task": "code a voice controlled feature",
-      "name": "lin, ",
-      "date": "23 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 10,
-      "completed": true,
+      "completed": false,
       "task": "code for light AND dark mode",
-      "name": "lj, ",
-      "date": "23 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 11,
-      "completed": true,
+      "completed": false,
       "task": "backend asked for advice",
-      "name": "lin, ",
-      "date": "23 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 12,
-      "completed": true,
+      "completed": false,
       "task": "made use of a public api",
-      "name": "lna, ",
-      "date": "22 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 13,
       "completed": true,
       "task": "FREE",
-      "name": "lina, ",
-      "date": "22 Jan"
+      "name": "team, ",
+      "date": "3 Jan"
     },
     {
       "id": 14,
@@ -100,10 +100,10 @@
     },
     {
       "id": 15,
-      "completed": true,
+      "completed": false,
       "task": "coded something that uses the device’s camera",
-      "name": "oij, ",
-      "date": "22 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 16,
@@ -137,8 +137,8 @@
       "id": 20,
       "completed": true,
       "task": "broke the whole website while trying something",
-      "name": "ion, ",
-      "date": "23 Jan"
+      "name": "lina, ",
+      "date": "5 Jan"
     },
     {
       "id": 21,
@@ -163,17 +163,17 @@
     },
     {
       "id": 24,
-      "completed": true,
+      "completed": false,
       "task": "make an email",
-      "name": "lin, ",
-      "date": "23 Jan"
+      "name": "",
+      "date": ""
     },
     {
       "id": 25,
-      "completed": true,
+      "completed": false,
       "task": "made something we’re proud of",
-      "name": "sg, ",
-      "date": "22 Jan"
+      "name": "",
+      "date": ""
     }
   ]
 }

@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div class="popup-bingo" v-if="bingo">
+      <h2>bingo!!</h2>
+      <p>time for a mario kart game night</p>
+    </div>
     <div class="bingo-card">
       <div v-for="(item, index) in apiData.items" :key="index" class="card-cell" @click="toggleComplete(item)">
         <div :class="{ 'completed': item.completed }">
@@ -20,7 +24,8 @@ export default {
     return {
       apiData: { items: [] },
       rows: 5,
-      cols: 5
+      cols: 5,
+      bingo: false
     };
   },
   mounted() {
@@ -58,6 +63,7 @@ export default {
         .catch(error => console.error('Error:', error));
     },
     markNumber() {
+      this.bingo = false;
       for (let column = 0; column < this.cols; column++) {
         let columnComplete = true;
         let rowComplete = true;
@@ -71,10 +77,12 @@ export default {
             rowComplete = false;
           }
           if (row == this.rows - 1) {
-            console.log(`Row ${column + 1} complete?`, rowComplete);
+            // console.log(`Row ${column + 1} complete?`, rowComplete);
+            if (rowComplete) this.bingo = true;
           }
         }
-        console.log(`Column ${column + 1} complete?`, columnComplete);
+        // console.log(`Column ${column + 1} complete?`, columnComplete);
+        if (columnComplete) this.bingo = true;
       }
 
 
@@ -88,8 +96,11 @@ export default {
       }
       const diagLeftComplete = diagonalLeft.every(i => this.apiData.items[i].completed);
       const diagRightComplete = diagonalRight.every(i => this.apiData.items[i].completed);
-      console.log('Diagonal from left complete?', diagLeftComplete);
-      console.log('Diagonal from right complete?', diagRightComplete);
+      // console.log('Diagonal from left complete?', diagLeftComplete);
+      // console.log('Diagonal from right complete?', diagRightComplete);
+      if (diagLeftComplete == true || diagRightComplete == true) {
+        this.bingo = true;
+      }
     }
   }
 };
